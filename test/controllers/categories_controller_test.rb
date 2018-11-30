@@ -18,6 +18,8 @@ class CategoriesControllerTest < ActionDispatch::IntegrationTest
   end
 
 
+  
+
   test "should get show" do
     get category_path(@category)
     assert_response :success
